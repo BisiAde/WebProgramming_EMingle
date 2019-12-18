@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns:moz="http://www.mozilla.org/2006/browser/search/"
+   xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>I-Event</ShortName>
+   <Description>An I-Event powered Search Engine</Description>
+   <InputEncoding>UTF-8</InputEncoding>
+      <moz:SearchForm>http://my-site/search</moz:SearchForm>
+   <Url method="get" type="text/html"
+      template="http://www.google.com/search?q={searchTerms}&amp;sitesearch=http://www.google.com"/>
+   
+
+    <!-- <Url type="application/rss+xml" method="get"
+          template="http://localhost/Ievent/index.php?q={searchTerms}&amp;pw={startPage?}&amp;format=rss"/> -->
+
+   <Query role="example" searchTerms="cat" />
+</OpenSearchDescription>

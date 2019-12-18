@@ -1,0 +1,118 @@
+
+font-family: 'Lato', sans-serif;
+body
+{
+	  margin:0;
+	  font-family: 'Poiret One', cursive;/*https://fonts.google.com/*/
+	  /*font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif; font-size: 16px;*/
+
+	  /*remove scroll bar
+	  height:100%;
+		#EEE
+	  overflow:hidden;*/
+
+      background-color: #8c8b8b;
+}
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+div{
+	border-radius: 5px;
+}
+
+.avatar{
+	width: 60px;
+	height: 60px;
+	margin: 5px 5px 5px 5px;
+	float: left;
+	border-radius: 5px;
+	border: 1px solid #999999;
+}
+
+.postImg{
+	max-width: 500px;
+	/*max-height: 500px;*/
+	/*margin: 5px 5px 5px 5px;
+	float: left;  */
+	border-radius: 5px;
+	border: 1px solid #999999;
+}
+
+.postIcon{
+	max-width: 100px;
+	/*max-height: 500px;*/
+	/*margin: 5px 5px 5px 5px;
+	float: left;  */
+	border-radius: 5px;
+	border: 1px solid #999999;
+}
+
+.leftmenu
+{
+	padding: 10px 0px 0px 10px;
+
+	background: #0c2838;
+	color:#fff;
+
+	width: 16%;
+	height: 95%;
+
+	overflow: auto;
+	float: left;
+
+	border-radius: 0px;
+}
+
+.main
+{
+	width: 60%;
+	height: 100%;
+	padding: 0px 0px 0px 20px;
+	float: left;
+}
+
+/*
+.nextMain
+{
+	width: 20%;
+	height: 10%;
+	padding: 0px 0px 0px 20px;
+	float: left;
+
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+*/
+
+#infoArea
+{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+    margin:0 auto;
+
+    /*width: 100%; */
+    padding: 10px 10px 10px 10px;
+    height: 70%; overflow:auto; /* https://stackoverflow.com/a/4646733 */
+}
+
+.msgArea
+{
+	/*align div center*/
+	width: 90%; margin: 0 auto; /*https://stackoverflow.com/a/114549*/
+	padding: 10px 0px 0px 10px;
+
+	border-color: #3B0029;
+	background-color: #EEE;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+
